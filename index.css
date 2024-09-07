@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    margin-top: 0;
+
+}
+
+.encabezado{
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lupa{
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+}
+
+.barra{
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.busqueda{
+    background-color: #fffefd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.secciones{
+    background-color: rgb(110, 34, 182);
+    height: 10px;
+    width: 100%;
+}
+
+.nav{
+    color: #FFFEFD;
+    background-color: rgb(110, 34, 182);
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.promocion{
+    
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(161, 103, 215);
+    background: linear-gradient(rgb(161, 103, 215)  300px, #FFFEFD);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.juguetes{
+    margin-top: -100px;
+    width: 20%;
+}
+
+.descripcion{
+    background-color: #FFFEFD;
+    border-radius: 10px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: 70px;
+
+}
+.set{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+
+.precios{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.anterior_precio{
+    text-decoration: line-through;
+}
+
+.nuevo_precio{
+    margin-top: -10px;
+}
+
+.titulo_oferta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-card {
+    margin-top: -70px;
+    height: 45vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 12%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titiulo-seccion{
+    margin-left: 120px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-info-card {
+    padding-bottom: 140px;
+    padding-top: -200px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.info-card img {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.info-card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-card p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info-card2 {
+    margin-top: -70px;
+    height: 45vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 12%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.big-info-card2 {
+    padding-bottom: 200px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.info-card2 img {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.info-card2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-card2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    background-color: rgb(110, 34, 182) ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFEFD;
+    cursor: pointer;
+    height: 3vh;
+    width: 10vh;
+
+}
